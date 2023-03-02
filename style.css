@@ -1,0 +1,52 @@
+*{
+    margin: 50px;
+    font-size: 16px;
+}
+.tablol{
+    width: 100%;
+    text-align: center;
+}
+.tablol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 30px;
+
+}
+table{
+    width: 600px;
+    border: 1px solid black;
+    
+}
+th{
+    text-transform: uppercase;
+    padding: 10px;
+}
+td{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+tbody tr:hover{
+    background-color: grey;
+    color: rgb(136, 9, 9);
+}
+table thead{
+    background-color: rgb(249, 141, 10);
+    padding: 10px;
+}
+thead:hover{
+   
+    color: rgb(231, 231, 231);
+
+}td:hover{
+    color: white;
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(201, 217, 217);
+  
+}
